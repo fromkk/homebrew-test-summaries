@@ -1,4 +1,4 @@
-class Testsummaries < Formula
+class TestSummaries < Formula
   desc "generate HTML file from TestSummaries.plist"
   homepage ""
   url "https://github.com/fromkk/TestSummaries/archive/0.0.1.tar.gz"
