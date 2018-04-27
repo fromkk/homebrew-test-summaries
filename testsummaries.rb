@@ -1,12 +1,11 @@
 class Testsummaries < Formula
   desc "generate HTML file from TestSummaries.plist"
   homepage ""
-  url "https://github.com/fromkk/TestSummaries/archive/0.0.1.tar.gz"
-  sha256 "cbefffc561bcf8b88b4df276149110d2bcc432c522dc3bd56722879c8816190e"
+  url "https://github.com/fromkk/TestSummaries/archive/0.0.2.tar.gz"
+  sha256 "5c34cbf099af951e7eed138b19bd5d89a6fa8a43698ae51e2d8f6f31bfd3aa45"
   depends_on :xcode => ["9.3", :build]
 
   def install
     system "make", "install", "PREFIX=#{prefix}"
   end
 end
-
