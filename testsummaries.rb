@@ -2,7 +2,7 @@ class Testsummaries < Formula
   desc "generate HTML file from TestSummaries.plist"
   homepage ""
   url "https://github.com/fromkk/TestSummaries/archive/0.0.3.tar.gz"
-  sha256 "7dff0c14778b3e5f5678a94e4d80e952c98f3ee459dd6eeebd6b934f1d3ca2ef"
+  sha256 "9e669a0c61e3f8e6e4dbe1369d77b5fe060e60e0122f8e58fd7a33104809b9ed"
   depends_on :xcode => ["9.3", :build]
 
   def install
